@@ -1,13 +1,12 @@
 {
   "name": "agencialeva",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "postinstall": "ng build --aot --prod"
+    "test": "ng test"
   },
   "engines": {
     "node": "14.15.4",
