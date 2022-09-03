@@ -1,12 +1,13 @@
 const express = require('express');
-const path = require('path');
-const Leva = process.env.npm_package_name;
 const app = express();
 
-app.use(express.static(`${__dirname}/dist/${Leva}`));
+const PORT = process.env.PORT || 8080;
+app.use(express.static(__dirname + '/dist/front-leva'));
 
 app.get('/*', (req, res) => {
-res.sendFile(path.join(`${__dirname}/dist/${Leva}/index.html`));
+  res.sendFile(__dirname + '/dist/front-leva/index.html')
 });
 
-app.listen(process.env.PORT || 8080);
+app.listen( PORT , () => {
+  console.log('Servidor iniciado na porta ' + PORT)
+});

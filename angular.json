@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "agencialeva": {
+    "front-leva": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/agencialeva",
+            "outputPath": "dist/front-leva",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "agencialeva:build:production"
+              "browserTarget": "front-leva:build:production"
             },
             "development": {
-              "browserTarget": "agencialeva:build:development"
+              "browserTarget": "front-leva:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "agencialeva:build"
+            "browserTarget": "front-leva:build"
           }
         },
         "test": {
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "c4a0ea47-a12f-410a-9f2f-5e08dba2c4a7"
+    "analytics": "da30c46e-e50b-4fb7-b408-784b62c8b2cf"
   }
 }
