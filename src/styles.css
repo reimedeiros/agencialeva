@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+nav .fontSize {
+  font-size: 17px;
+}
+
+section .section1 .section1-1-frase {
+  font-size: 53px;
+}
+
+section .section2 .section2-1-frase {
+  font-size: 53px;
+}
+
+section .section2 .section2-2-frase {
+  font-size: 19px;
+}
