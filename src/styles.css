@@ -2,15 +2,197 @@
 nav .fontSize {
   font-size: 17px;
 }
-
+/* Section 1 */
 section .section1 .section1-1-frase {
-  font-size: 53px;
+  font-size: 56px;
+  color: #6025e1;
+}
+/* Section 2 */
+.section2-bg {
+  background-color: #f15a24;
 }
 
 section .section2 .section2-1-frase {
   font-size: 53px;
+  color: #ffffff;
 }
 
-section .section2 .section2-2-frase {
+section .section2 .section2-1-frase b {
+  padding: 0px;
+}
+
+section .section2 .section2-1-frase2 {
   font-size: 19px;
+  color: #ffffff;
+}
+
+section .section2 .section2-2 {}
+/* Section 3 */
+.section3-bg {
+  background-color: #5f24e0;
+}
+
+section .section3 .section3-1-frase {
+  font-size: 42px;
+  color: #ffffff;
+}
+
+section .section3 .section3-1-frase span {
+  background-color: #f15a24;
+}
+
+section .section3 .section3-2-frase {
+  font-size: 34px;
+  color: #ffffff;
+}
+
+section .section3 .section3-2-frase span {
+  color: #e6ea00 !important;
+}
+
+section .section3 .section3-2-cards {
+  color: #ffffff;
+}
+
+section .section3 .section3-2-cards .section3-2-card {}
+
+section .section3 .section3-2-cards .section3-2-card .section3-2-card-icone {}
+
+section .section3 .section3-2-cards .section3-2-card .section3-2-card-servico {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+section .section3 .section3-2-cards .section3-2-card .section3-2-card-descricao {
+  font-size: 22px;
+}
+/* Section 4 */
+section .section4 .section4-1-titulo{
+  font-size: 56px;
+  color: #5f24e0;
+}
+
+section .section4 .section4-1-descricao{
+  font-size: 20px;
+  color: #464241;
+}
+
+section .section4 .section4-2{
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+}
+
+section .section4 .section4-2 .section4-2-cliente{
+  font-size: 20px;
+}
+
+section .section4 .section4-3 .section4-3-frase{
+  font-size: 57px;
+  color: #5f24e0;
+}
+
+section .section4 .section4-3 .section4-3-frase span{
+  color: #f15a24 !important;
+}
+
+section .section4 .section4-3 .section4-3-video{}
+/* Section 5 */
+.section5-bg {
+  background-color: #f15a24;
+}
+
+section .section5 {}
+
+section .section5 .section5-depoimentos {}
+
+section .section5 .section5-depoimentos .section5-depoimento {}
+
+section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-img {}
+
+section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-descricao {}
+
+section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-cargo {
+  font-size: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-nome {
+  color: #e6ea00;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-cidade {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+section .section5 .section5-depoimentos .section5-depoimento-texto {
+  margin: -45px 0px 0px 0px;
+}
+
+section .section5 .section5-depoimentos .section5-depoimento-texto .section5-depoimento-texto-aspas {
+  font-size: 135px;
+  display: contents;
+  color: #e6ea00;
+}
+section .section5 .section5-depoimentos .section5-depoimento-texto-1 {
+  margin: 55px 0px 0px 0px;
+  color: #ffffff;
+  font-size: 31px;
+}
+/* Section 6 */
+
+section .section6 {}
+
+section .section6 .section6-contato {}
+
+section .section6 .section6-contato .section6-contato-frase {
+  color: #5f24e0;
+  font-size: 60px;
+}
+
+section .section6 .section6-contato .section6-contato-btn {}
+
+section .section6 .section6-contato .section6-contato-frase-2 {
+  color: #717172;
+  font-size: 46px;
+}
+
+section .section6 .section6-contato .section6-contato-tel {
+  color: #5f24e0;
+  font-size: 33px;
+}
+
+section .section6 .section6-form {
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+}
+/* Footer */
+.footer-bg {
+  background-color: #5f24e0;
+}
+
+section .footer {
+  color: #ffffff;
+}
+
+section .footer .footer-marca {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+section .footer .footer-descricao {
+  font-size: 17px;
+}
+
+section .footer .footer-dev {
+  font-size: 17px;
+}
+
+section .footer .footer-social {
+  display: flex;
+  flex-direction: column-reverse;
 }
