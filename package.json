@@ -3,7 +3,9 @@
   "version": "0.0.7",
   "scripts": {
     "ng": "ng",
+    "prestart": "npm run build",
     "start": "node server",
+    "prebuild": "npm install",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
