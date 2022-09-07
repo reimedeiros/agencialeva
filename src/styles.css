@@ -1,11 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
-nav .fontSize {
+.navbar {
+  border-bottom: 2px solid #6025e1;
+}
+
+nav .nav-link {
   font-size: 17px;
+  color: #333333;
+}
+
+nav .nav-contato {
+  background-color: #dd5625;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+nav .nav-link .svg-inline--fa {
+  color: #5b26cf;
 }
 /* Section 1 */
+section .section1 .section1-alinhamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 section .section1 .section1-1-frase {
-  font-size: 56px;
+  font-size: 67px;
   color: #6025e1;
+  line-height: 63px;
 }
 /* Section 2 */
 .section2-bg {
@@ -195,4 +216,41 @@ section .footer .footer-dev {
 section .footer .footer-social {
   display: flex;
   flex-direction: column-reverse;
+}
+
+/* Utilidade */
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.btn-outline {
+  border: 1px solid #7d4de6;
+  border-radius: 10px;
+  color: #7d4de6;
+}
+
+.btn-outline:hover {
+  border: 1px solid #7d4de6;
+  background-color: #7d4de6;
+  color: #ffffff;
+}
+
+.btn-laranja {
+  background-color: #f15a24;
+  border: #f15a24;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.btn-laranja:hover {
+  background-color: #d0410d;
+  color: #ffffff;
 }
