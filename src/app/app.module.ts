@@ -12,10 +12,11 @@ import { Section3Component } from './sections/section3/section3.component';
 import { Section4Component } from './sections/section4/section4.component';
 import { Section5Component } from './sections/section5/section5.component';
 import { Section6Component } from './sections/section6/section6.component';
+import { ServicosComponent } from './sections/section3/servicos/servicos.component';
 
 const MODULES = [BrowserModule, AppRoutingModule, IconsModule];
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, Section1Component, Section2Component, Section3Component, Section4Component, Section5Component, Section6Component],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, Section1Component, Section2Component, Section3Component, Section4Component, Section5Component, Section6Component, ServicosComponent],
   imports: [MODULES],
   providers: [],
   bootstrap: [AppComponent],

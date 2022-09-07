@@ -56,6 +56,7 @@ section .section2 .section2-2 {}
 /* Section 3 */
 .section3-bg {
   background-color: #5f24e0;
+  background:url("assets/img/img-section-3.png") no-repeat;
 }
 
 section .section3 .section3-1-frase {
@@ -80,17 +81,35 @@ section .section3 .section3-2-cards {
   color: #ffffff;
 }
 
-section .section3 .section3-2-cards .section3-2-card {}
+section .section3 .section3-2-cards .section3-2-card {
+  background: rgb(0,2,0);
+  background: linear-gradient(76deg, rgba(0,2,0,1) 0%, rgba(255,255,255,0.26) 150%);
+  mix-blend-mode: color-dodge;
+  border-radius: 30px;
+  margin: 0px 20px;
+}
 
-section .section3 .section3-2-cards .section3-2-card .section3-2-card-icone {}
+section .section3 .section3-2-cards .section3-2-card .section3-2-card-icone {
+  padding-top: 70px;
+}
 
 section .section3 .section3-2-cards .section3-2-card .section3-2-card-servico {
   font-size: 22px;
   text-transform: uppercase;
+  border-bottom: 2px solid #5f24e0;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+section .section3 .section3-2-cards .section3-2-card .section3-2-card-servico span {
+  font-size: 13px;
 }
 
 section .section3 .section3-2-cards .section3-2-card .section3-2-card-descricao {
   font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 /* Section 4 */
 section .section4 .section4-1-titulo{
@@ -228,12 +247,24 @@ section .footer .footer-social {
   margin-top: 70px;
 }
 
+.mt-30 {
+  margin-top: 30px !important;
+}
+
 .mt-35 {
   margin-top: 35px;
 }
 
 .mb-70 {
   margin-bottom: 70px;
+}
+
+.pt-65 {
+  padding-top: 65px;
+}
+
+.pt-70 {
+  padding-top: 70px;
 }
 
 .pt-160 {
@@ -244,6 +275,9 @@ section .footer .footer-social {
   padding-bottom: 160px;
 }
 
+.pb-215 {
+  padding-bottom: 215px;
+}
 .btn-outline {
   border: 1px solid #7d4de6;
   border-radius: 10px;
