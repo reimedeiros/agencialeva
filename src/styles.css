@@ -177,7 +177,9 @@ section .section4 .section4-3 .section4-3-video{
   background-color: #f15a24;
 }
 
-section .section5 {}
+section .section5 {
+  padding-bottom: 90px;
+}
 
 section .section5 .section5-depoimentos {}
 
@@ -185,7 +187,11 @@ section .section5 .section5-depoimentos .section5-depoimento {}
 
 section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-img {}
 
-section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-descricao {}
+section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-descricao {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
 
 section .section5 .section5-depoimentos .section5-depoimento .section5-depoimento-cargo {
   font-size: 26px;
@@ -228,6 +234,7 @@ section .section6 .section6-contato {}
 section .section6 .section6-contato .section6-contato-frase {
   color: #5f24e0;
   font-size: 60px;
+  line-height: 63px;
 }
 
 section .section6 .section6-contato .section6-contato-btn {}
@@ -278,9 +285,13 @@ section .footer .footer-social {
 .mt-20 { margin-top: 20px !important; }
 .mt-30 { margin-top: 30px !important; } .mt-35 { margin-top: 35px; }
 .mt-40 { margin-top: 40px; } .mt-70 { margin-top: 70px; }
-.mb-70 { margin-bottom: 70px; } .pt-40 { padding-top: 40px; }
-.pt-60 { padding-top: 60px; } .pt-65 { padding-top: 65px; }
-.pt-70 { padding-top: 70px; } .pt-150 { padding-top: 150px; }
+
+.mb-70 { margin-bottom: 70px; }
+
+.pt-35 { padding-top: 35px; }
+.pt-40 { padding-top: 40px; } .pt-60 { padding-top: 60px; }
+.pt-65 { padding-top: 65px; } .pt-70 { padding-top: 70px; }
+.pt-80 { padding-top: 80px; } .pt-150 { padding-top: 150px; }
 .pt-160 { padding-top: 160px; }
 
 .pb-60 { padding-bottom: 60px; } .pb-100 { padding-bottom: 100px; }
