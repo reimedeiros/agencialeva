@@ -31,6 +31,9 @@ section .section1 .section1-1-frase {
 /* Section 2 */
 .section2-bg {
   background-color: #f15a24;
+}
+
+.section2-img {
   background:url("assets/img/logo-section2.png") no-repeat;
 }
 
@@ -56,7 +59,12 @@ section .section2 .section2-2 {}
 /* Section 3 */
 .section3-bg {
   background-color: #5f24e0;
+}
+
+.section3-img {
   background:url("assets/img/img-section-3.png") no-repeat;
+  background-size: auto;
+  background-position: center center;
 }
 
 section .section3 .section3-1-frase {
@@ -275,8 +283,8 @@ section .footer .footer-social {
   padding-bottom: 160px;
 }
 
-.pb-215 {
-  padding-bottom: 215px;
+.pb-100 {
+  padding-bottom: 100px;
 }
 .btn-outline {
   border: 1px solid #7d4de6;
