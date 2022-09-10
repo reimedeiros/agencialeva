@@ -14,6 +14,11 @@ nav .nav-contato {
   border-radius: 10px;
 }
 
+nav .nav-contato:hover {
+  background-color: #b3441c;
+  color: #ffffff;
+}
+
 nav .nav-link .svg-inline--fa {
   color: #5b26cf;
 }
@@ -40,6 +45,7 @@ section .section1 .section1-1-frase {
 section .section2 .section2-1-frase {
   font-size: 56px;
   color: #ffffff;
+  line-height: 63px;
 }
 
 section .section2 .section2-1-frase b {
@@ -70,6 +76,7 @@ section .section2 .section2-2 {}
 section .section3 .section3-1-frase {
   font-size: 42px;
   color: #ffffff;
+  line-height: 63px;
 }
 
 section .section3 .section3-1-frase span {
@@ -139,16 +146,32 @@ section .section4 .section4-2 .section4-2-cliente{
   font-size: 20px;
 }
 
+section .section4 .section4-2 .section4-2-cliente img{
+  border: 1px solid #efefef;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
+  transition: .3s;
+}
+
+section .section4 .section4-2 .section4-2-cliente img:hover{
+  -webkit-filter: none;
+	filter: none;
+}
+
 section .section4 .section4-3 .section4-3-frase{
   font-size: 57px;
   color: #5f24e0;
+  line-height: 63px;
 }
 
 section .section4 .section4-3 .section4-3-frase span{
   color: #f15a24 !important;
 }
 
-section .section4 .section4-3 .section4-3-video{}
+section .section4 .section4-3 .section4-3-video{
+  border-radius: 45px
+}
 /* Section 5 */
 .section5-bg {
   background-color: #f15a24;
@@ -251,41 +274,18 @@ section .footer .footer-social {
 }
 
 /* Utilidade */
-.mt-70 {
-  margin-top: 70px;
-}
 
-.mt-30 {
-  margin-top: 30px !important;
-}
+.mt-20 { margin-top: 20px !important; }
+.mt-30 { margin-top: 30px !important; } .mt-35 { margin-top: 35px; }
+.mt-40 { margin-top: 40px; } .mt-70 { margin-top: 70px; }
+.mb-70 { margin-bottom: 70px; } .pt-40 { padding-top: 40px; }
+.pt-60 { padding-top: 60px; } .pt-65 { padding-top: 65px; }
+.pt-70 { padding-top: 70px; } .pt-150 { padding-top: 150px; }
+.pt-160 { padding-top: 160px; }
 
-.mt-35 {
-  margin-top: 35px;
-}
+.pb-60 { padding-bottom: 60px; } .pb-100 { padding-bottom: 100px; }
+.pb-160 { padding-bottom: 160px; }
 
-.mb-70 {
-  margin-bottom: 70px;
-}
-
-.pt-65 {
-  padding-top: 65px;
-}
-
-.pt-70 {
-  padding-top: 70px;
-}
-
-.pt-160 {
-  padding-top: 160px;
-}
-
-.pb-160 {
-  padding-bottom: 160px;
-}
-
-.pb-100 {
-  padding-bottom: 100px;
-}
 .btn-outline {
   border: 1px solid #7d4de6;
   border-radius: 10px;
