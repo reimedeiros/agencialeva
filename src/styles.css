@@ -177,9 +177,7 @@ section .section4 .section4-3 .section4-3-video{
   background-color: #f15a24;
 }
 
-section .section5 {
-  padding-bottom: 90px;
-}
+section .section5 {}
 
 section .section5 .section5-depoimentos {}
 
@@ -229,7 +227,12 @@ section .section5 .section5-depoimentos .section5-depoimento-texto-1 {
 
 section .section6 {}
 
-section .section6 .section6-contato {}
+section .section6 .section6-contato {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
 section .section6 .section6-contato .section6-contato-frase {
   color: #5f24e0;
@@ -237,7 +240,25 @@ section .section6 .section6-contato .section6-contato-frase {
   line-height: 63px;
 }
 
-section .section6 .section6-contato .section6-contato-btn {}
+section .section6 .section6-contato .section6-contato-btn button{
+  background-color: #19ba3b;
+  color: #ffffff;
+}
+
+section .section6 .section6-contato .section6-contato-btn button:hover{
+  background-color: #00962a;
+  color: #ffffff;
+}
+
+section .section6 .section6-contato .section6-contato-btn button span{
+  font-weight: bolder;
+}
+
+section .section6 .section6-contato .section6-contato-btn button svg{
+  width: 35px;
+  padding-left: 10px;
+  fill: rgba(255,255,255,1);
+}
 
 section .section6 .section6-contato .section6-contato-frase-2 {
   color: #717172;
@@ -279,6 +300,19 @@ section .footer .footer-social {
   display: flex;
   flex-direction: column-reverse;
 }
+/* Form */
+.label-input {
+  margin-bottom: 0;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid #b08ab2;
+}
+
+.form-input:focus {
+  box-shadow: 0px 2px #b08ab2;
+}
 
 /* Utilidade */
 
@@ -294,8 +328,13 @@ section .footer .footer-social {
 .pt-80 { padding-top: 80px; } .pt-150 { padding-top: 150px; }
 .pt-160 { padding-top: 160px; }
 
-.pb-60 { padding-bottom: 60px; } .pb-100 { padding-bottom: 100px; }
-.pb-160 { padding-bottom: 160px; }
+.pb-50 { padding-bottom: 50px; }
+.pb-60 { padding-bottom: 60px; } .pb-70 { padding-bottom: 70px; }
+.pb-100 { padding-bottom: 100px; } .pb-160 { padding-bottom: 160px; }
+.pb-200 { padding-bottom: 200px; }
+
+.pe-70 { padding-left: 70px;}
+.pd-70 { padding-right: 70px;}
 
 .btn-outline {
   border: 1px solid #7d4de6;

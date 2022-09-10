@@ -14,11 +14,13 @@ import { Section5Component } from './sections/section5/section5.component';
 import { Section6Component } from './sections/section6/section6.component';
 import { ServicosComponent } from './sections/section3/servicos/servicos.component';
 import { ClientesComponent } from './sections/section4/clientes/clientes.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormContatoComponent } from './sections/section6/form-contato/form-contato.component';
 
 const MODULES = [BrowserModule, AppRoutingModule, IconsModule];
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, Section1Component, Section2Component, Section3Component, Section4Component, Section5Component, Section6Component, ServicosComponent, ClientesComponent],
-  imports: [MODULES],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, Section1Component, Section2Component, Section3Component, Section4Component, Section5Component, Section6Component, ServicosComponent, ClientesComponent, FormContatoComponent],
+  imports: [MODULES, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })
