@@ -300,6 +300,17 @@ section .footer .footer-social {
   display: flex;
   flex-direction: column-reverse;
 }
+
+section .footer .footer-social .icon-footer {
+  width: 20px;
+  fill: rgba(255,255,255,1);
+}
+
+.border-icon-footer{
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+}
 /* Form */
 .label-input {
   margin-bottom: 0;
@@ -334,7 +345,7 @@ section .footer .footer-social {
 .pb-200 { padding-bottom: 200px; }
 
 .pe-70 { padding-left: 70px;}
-.pd-70 { padding-right: 70px;}
+.pd-40 { padding-right: 40px;} .pd-70 { padding-right: 70px;}
 
 .btn-outline {
   border: 1px solid #7d4de6;
