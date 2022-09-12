@@ -298,7 +298,8 @@ section .footer .footer-dev {
 
 section .footer .footer-social {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  align-items: flex-end;
 }
 
 section .footer .footer-social .icon-footer {
@@ -327,6 +328,10 @@ section .footer .footer-social .icon-footer {
 
 /* Utilidade */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .mt-20 { margin-top: 20px !important; }
 .mt-30 { margin-top: 30px !important; } .mt-35 { margin-top: 35px; }
 .mt-40 { margin-top: 40px; } .mt-70 { margin-top: 70px; }
@@ -339,6 +344,7 @@ section .footer .footer-social .icon-footer {
 .pt-80 { padding-top: 80px; } .pt-150 { padding-top: 150px; }
 .pt-160 { padding-top: 160px; }
 
+.pb-3 { padding-bottom: 3px !important;}
 .pb-50 { padding-bottom: 50px; }
 .pb-60 { padding-bottom: 60px; } .pb-70 { padding-bottom: 70px; }
 .pb-100 { padding-bottom: 100px; } .pb-160 { padding-bottom: 160px; }
@@ -351,6 +357,11 @@ section .footer .footer-social .icon-footer {
   border: 1px solid #7d4de6;
   border-radius: 10px;
   color: #7d4de6;
+}
+
+.btn-outline a{
+  text-decoration: none;
+  color: unset;
 }
 
 .btn-outline:hover {
